@@ -6,7 +6,7 @@ CI = 'true'
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/username/node-ci-cd.git'
+git branch: 'main', url: 'https://github.com/MAJabbar20/B_2200016088_PPMPL_P8'
 }
 }
 stage('Install Dependencies') {
